@@ -78,6 +78,11 @@ img {
   gap: 40px;
 }
 
+.nav {
+  margin-left: 76px;
+  margin-right: 332px;
+}
+
 .nav .nav-item {
   line-height: 1.5;
   font-weight: 500;
@@ -149,6 +154,8 @@ img {
   padding: 16px 32px;
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
 }
 
 .hero .hero-button:hover {
@@ -281,8 +288,13 @@ img {
   margin-bottom: 8px;
   margin-left: 16px;
   text-align: left;
-  margin: 1px solid #e7e9fc;
+}
+
+.portfolio-card .text {
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .portfolio .portfolio-category {
